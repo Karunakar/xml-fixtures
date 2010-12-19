@@ -3,7 +3,10 @@ Xml Fixtures
 
 XML Fixtures  in Rails 3 instead of YML or CSV
 
-Tested in RAILS 3 with ruby 1.9.2
+
+Yet to implement test scripts.
+
+Need to test more
 
 Example
 =======
