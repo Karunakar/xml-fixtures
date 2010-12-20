@@ -2,7 +2,6 @@ namespace :db do
   namespace :xml_fixtures do
     desc "Dump db data to the test/fixtures/ directory as table_name.xml. Use MODEL=ModelName and LIMIT (optional)"
     task :dump => :environment do
-      raise XmlFixture::model_or_raise.inspect
       XmlFixture::model_or_raise.constantize.dump_to_xml_file
     end
   end
